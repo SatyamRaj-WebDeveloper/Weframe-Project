@@ -5,7 +5,7 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 
 const Dashboard = () => {
-  const [isOpen ,setisOpen] = useState(false);
+  const [isOpen ,setisOpen] = useState(true);
   return (
     <div className=' min-h-screen '>
       <div className={` ${isOpen ? 'w-60 transition-all duration-500 ' :'w-18 transition-all duration-500' } outline-none  bg-gradient-to-b from-[#003554] to-[#007EA7] h-full relative py-10 `}>
